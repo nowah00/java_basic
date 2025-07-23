@@ -17,14 +17,12 @@ public class ex01 {
 
         //출력
         System.out.println("10+11+12 = " + sum);
-        System.out.println(num1 + "+" + num2 + "+" + num3 + "+" + sum);
+        System.out.println(num1 + "+" + num2 + "+" + num3 + "=" + sum);
             // + -> 연결연산자, num1 -> 변수, "" -> 문자열
         System.out.printf(" %d + %d + %d = %d " ,num1,num2,num3,sum);
             // %d는 , 뒤에 있는 수들을 순서대로 꽂아서 연산하라는 용어
-
-
+            // 숫자는 문자열을 써야 출력됌
     }
-
 }
 
 
