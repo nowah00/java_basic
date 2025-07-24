@@ -31,13 +31,5 @@ public class PromotionEx {
         System.out.println(f1 + " " + f2);
 
 
-
-
-
-
-
-
-
-
     }
 }
