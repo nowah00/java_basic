@@ -37,6 +37,7 @@ public class Main {
         System.out.printf("원주 = %d * %d * %s = %s\n", a, b, pie, result1);
         System.out.printf("넓이 = %d * %d * %s = %s", a, a, pie, result2);
 
+        //  왜 계속 자꾸 안되는거야!!!!
 
 
 //입력 - 연습문제5
