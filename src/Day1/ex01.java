@@ -1,3 +1,5 @@
+package Day1;
+
 public class ex01 {
 // 접근제한자
 //  - public > protected > default(아무것도 없을땐 디폴트 클래스) > private

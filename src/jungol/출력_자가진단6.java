@@ -1,4 +1,4 @@
-package julgol;
+package jungol;
 
 public class 출력_자가진단6 {
     public static void main(String[] args) {
