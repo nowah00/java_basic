@@ -6,13 +6,13 @@ public class VaribleEx02 {
         int y = 5;
         int temp = 0;
 
-        System.out.println("x = %d, y = %d, temp = d%\n", x, y, temp);
+        System.out.printf("x = %d, y = %d, temp = %d\n", x, y, temp);
 
 
         temp = x;
         x= y;
         y = temp;
 
-        System.out.println("x = %d, y = %d, temp = d%\n", x, y, temp);
+        System.out.printf("x = %d, y = %d, temp = %d\n", x, y, temp);
     }
 }
