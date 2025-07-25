@@ -33,9 +33,31 @@ public class OperationEx01 {
 
         System.out.println(y++ + 10);
 
+        int x1 = 10;
+        int y1 = 10;
+        int z;
 
+        x1++;       // x1 = x1 = 1
+        ++x1;       // x1 = x1 = 1
+        System.out.println("x1 : " + x1);
 
+        System.out.println("=====================");
 
+        y1--;       // y1 = y1 - 1
+        --y1;       // y1 = y1 - 1
+        System.out.println("y1 : " + y1);
+
+        System.out.println("=====================");
+
+        z = x1++;
+        System.out.println("z : " + z + " x1 : " + x1);
+
+        System.out.println("=====================");
+
+        z = ++x1 + y1++;
+        System.out.println("z : " + z + " y1 : " + y1);
+
+    
 
 
 
