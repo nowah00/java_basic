@@ -13,5 +13,19 @@ public class Operation04 {
         int result2 = num1 * (int) Math.pow(2,3);
         System.out.println("result1 : " + result1);
         System.out.println("result2 : " + result2);
+
+        // 대입연산자  , 복합대입연산자  +=   -=  *=  /=  %=
+
+        int r = 0;
+        r += 10; // r = r + 10;
+        System.out.printf("현재의 r의 값 : %d\n", r);
+        r -= 5; // r = r - 5;
+        System.out.printf("현재의 r의 값 : %d\n", r);
+        r *= 2; // r = r*2;
+        System.out.printf("현재의 r의 값 : %d\n", r);
+        r /= 5; // r = r / 5;
+        System.out.printf("현재의 r의 값 : %d\n", r);
+        r %= 2; // r = r % 2;
+        System.out.printf("현재의 r의 값 : %d", r);
     }
 }
