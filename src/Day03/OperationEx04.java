@@ -1,6 +1,6 @@
 package Day03;
 
-public class Operation04 {
+public class OperationEx04 {
     public static void main(String[] args) {
 
         // % bit 단위로 논리연산을 수행한다     대상은 bit 0, 1
