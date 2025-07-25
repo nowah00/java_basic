@@ -93,18 +93,5 @@ public class OperationEx01 {
         int k = 5;
         int result8 = k%2;      // %는 2로 5를 나눈 나머지 값
         System.out.println(result8);
-
-
-
-// 비교연산자 동등 (==, !=), 크기 (<, <=, >, >=) 를 평가해서 boolean 타임인 true, false 를 산출한다
-
-
-
-
-
-
-
-
-
     }
 }
