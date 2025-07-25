@@ -1,10 +1,6 @@
 package jungol.입력;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Scanner;
-
-public class Main {
+public class 연습문제 {
     public static void main(String[] args) {
 //입력 - 연습문제1
 //        int a = 10;
