@@ -61,9 +61,8 @@ public class Main {
 //        int a,b, result1, result2;
 //        Scanner input= new Scanner(System.in);
 //
-//        System.out.println("첫번쨰 수를 입력하세요");
+//        System.out.println("두 수를 입력하시오");
 //        a = input.nextInt();
-//        System.out.println("두번째 수를 입력하세요");
 //        b = input.nextInt();
 //
 //        result1 = a + b;
@@ -73,24 +72,32 @@ public class Main {
 //        System.out.println(a + "*" + b + "=" + result2);
 
 //입력 - 연습문제8
-        Scanner input = new Scanner(System.in);
-        int a, b;
-
-        System.out.println("키를 입력하세요");
-        a = input.nextInt();
-
-        System.out.println("몸무게를 입력하세요");
-        b = input.nextInt();
-
-        input.nextLine();
-
-        System.out.println("이름을 입력하세요");
-        String c = input.nextLine();
-
-        System.out.printf("키 = %d\n", a);
-        System.out.printf("몸무게 = %d\n", b);
-        System.out.printf("이름 = %s", c);
+//        Scanner input = new Scanner(System.in);
+//        int a, b;
+//
+//        System.out.println("키를 입력하세요");
+//        a = input.nextInt();
+//
+//        System.out.println("몸무게를 입력하세요");
+//        b = input.nextInt();
+//
+//        input.nextLine();
+//
+//        System.out.println("이름을 입력하세요");
+//        String c = input.nextLine();
+//
+//        System.out.printf("키 = %d\n", a);
+//        System.out.printf("몸무게 = %d\n", b);
+//        System.out.printf("이름 = %s", c);
 
 //입력 - 연습문제9
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("두 개의 실수를 입력하세요");
+//        float x = input.nextFloat();
+//        float y = input.nextFloat();
+//
+//        System.out.printf("x = %.2f\n",x);
+//        System.out.printf("y = %.2f\n",y);
     }
 }
