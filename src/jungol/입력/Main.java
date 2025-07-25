@@ -50,16 +50,47 @@ public class Main {
 //        System.out.printf("y = %.2f\n",y);
 
 //입력 - 연습문제6
-        int num1, sum;
-        Scanner input= new Scanner(System.in);
-
-        System.out.println("당신의 나이는 몇 살입니까");
-        num1 = input.nextInt();
-        sum = num1;
-        System.out.printf("당신의 나이는 %d살이군요", sum);
+//        int a, age;
+//        Scanner input= new Scanner(System.in);
+//        System.out.println("당신의 나이는 몇 살입니까");
+//        num1 = input.nextInt();
+//        age = a;
+//        System.out.printf("당신의 나이는 %d살이군요", age);
 
 //입력 - 연습문제7
+//        int a,b, result1, result2;
+//        Scanner input= new Scanner(System.in);
+//
+//        System.out.println("첫번쨰 수를 입력하세요");
+//        a = input.nextInt();
+//        System.out.println("두번째 수를 입력하세요");
+//        b = input.nextInt();
+//
+//        result1 = a + b;
+//        result2 = a * b;
+//
+//        System.out.println(a + "+" + b + "=" + result1);
+//        System.out.println(a + "*" + b + "=" + result2);
+
 //입력 - 연습문제8
+        Scanner input = new Scanner(System.in);
+        int a, b;
+
+        System.out.println("키를 입력하세요");
+        a = input.nextInt();
+
+        System.out.println("몸무게를 입력하세요");
+        b = input.nextInt();
+
+        input.nextLine();
+
+        System.out.println("이름을 입력하세요");
+        String c = input.nextLine();
+
+        System.out.printf("키 = %d\n", a);
+        System.out.printf("몸무게 = %d\n", b);
+        System.out.printf("이름 = %s", c);
+
 //입력 - 연습문제9
     }
 }
