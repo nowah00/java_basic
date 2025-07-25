@@ -42,7 +42,7 @@ public class 형성평가 {
 
         System.out.println("yard?");
         double a = input.nextDouble();
-        double result = 923.5;
+        double result = a * 91.44;
 
         System.out.printf("%.1fyard = %.1fcm", a, result);
     }
