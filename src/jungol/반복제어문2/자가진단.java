@@ -13,13 +13,8 @@ public class 자가진단 {
 //            System.out.printf("%c",c);
 
 // 자가진단2
-        for (int i = 10; i <= 20 ; i++){
-            System.out.println(i);
-        }
-
-
-
-
-
+        for (int i = 10; i <= 20; i++) {
+            System.out.print(i + " ");
         }
     }
+}
