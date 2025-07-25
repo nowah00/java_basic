@@ -1,4 +1,4 @@
-package Day2;
+package Day02;
 
 public class PrimitiveAndStringConversionEx {
     public static void main(String[] args) {
