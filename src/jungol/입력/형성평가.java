@@ -25,18 +25,25 @@ public class 형성평가 {
 //        System.out.printf("%d * %.2f = %.0f",a,b,result);
 
 // 형성평가4
+//        Scanner input = new Scanner(System.in);
+//        int a, b, c, sum ;
+//
+//        System.out.println("세 개의 정수를 입력하시오");
+//        a = input.nextInt();
+//        b = input.nextInt();
+//        c = input.nextInt();
+//
+//        sum = a + b + c;
+//
+//        System.out.println(a + "+" + b + "+" + c + "=" + sum);
+
+// 형성평가5
         Scanner input = new Scanner(System.in);
-        int a, b, c, sum ;
 
-        System.out.println("세 개의 정수를 입력하시오");
-        a = input.nextInt();
-        b = input.nextInt();
-        c = input.nextInt();
+        System.out.println("yard?");
+        double a = input.nextDouble();
+        double result = 923.5;
 
-        sum = a + b + c;
-
-        System.out.println(a + "+" + b + "+" + c + "=" + sum);
-
-
+        System.out.printf("%.1fyard = %.1fcm", a, result);
     }
 }
