@@ -7,10 +7,19 @@ public class 자가진단 {
 
 // 자가진단1
         Scanner in = new Scanner(System.in);
+//
+//        char c = in.next().charAt(0);
+//        for (int i = 19 ; i <=20 ; i++){
+//            System.out.printf("%c",c);
 
-        char c = in.next().charAt(0);
-        for (int i = 19 ; i <=20 ; i++){
-            System.out.printf("%c",c);
+// 자가진단2
+        for (int i = 10; i <= 20 ; i++){
+            System.out.println(i);
+        }
+
+
+
+
+
         }
     }
-}
