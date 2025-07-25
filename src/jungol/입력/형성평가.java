@@ -9,11 +9,18 @@ public class 형성평가 {
 //        System.out.printf("%d + %d = %d", a,b,c);
 
 // 형성평가2
-        float a = 80.5f;
-        float b = 22.34f;
-        float c = 102.84f;
+//        float a = 80.5f;
+//        float b = 22.34f;
+//        float c = 102.84f;
+//
+//        System.out.printf("%.2f     %.2f     %.2f",a,b,c);
 
-        System.out.printf("%.2f     %.2f     %.2f",a,b,c);
+// 형성평가3
+        int a = 50;
+        float b = 100.12f;
+        float result = a * b;
+
+        System.out.printf("%d * %.2f = %.0f",a,b,result);
 
 
 
