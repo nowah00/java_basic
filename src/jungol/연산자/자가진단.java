@@ -64,25 +64,44 @@ public class 자가진단 {
 //        }
 
 // 자가진단6
-        int a = in.nextInt();
-        int b = in.nextInt();
-
-        if (!(a > b)){
-            System.out.printf("%d > %d --- 0\n", a, b);
-        }
-
-        if (a < b){
-            System.out.printf("%d < %d --- 1\n", a, b);
-        }
-        if (!(a >= b)){
-            System.out.printf("%d >= %d --- 0\n", a, b);
-        }
-
-        if (a <= b){
-            System.out.printf("%d <= %d --- 1", a, b);
-        }
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//
+//        if (!(a > b)){
+//            System.out.printf("%d > %d --- 0\n", a, b);
+//        }
+//
+//        if (a < b){
+//            System.out.printf("%d < %d --- 1\n", a, b);
+//        }
+//        if (!(a >= b)){
+//            System.out.printf("%d >= %d --- 0\n", a, b);
+//        }
+//
+//        if (a <= b){
+//            System.out.printf("%d <= %d --- 1", a, b);
+//        }
 
 // 자가진단7
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//
+//        boolean x = (a != 0);
+//        boolean y = (b != 0);
+//
+//        boolean z1 = x && y;
+//        boolean z2 = x || y;
+//
+//        System.out.printf("%d %d\n", z1 ? 1 : 0, z2 ? 1 : 0);
 
+// 자가진단8
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+
+        int x = (a > b && a > c) ? 1 : 0;
+        int y = (a == b && b == c) ? 1 : 0;
+
+        System.out.printf("%d %d\n", x, y);
     }
 }

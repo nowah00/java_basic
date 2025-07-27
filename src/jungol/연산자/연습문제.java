@@ -146,10 +146,28 @@ public class 연습문제 {
 //        }
 
 //연습문제7
+//        int a = 0;
+//        int b = 1;
+//        int c = 2;
+//
+//        int result1 = (a != 0 && b != 0) ? 1 : 0;
+//        int result2 = (a != 0 || b != 0) ? 1 : 0;
+//        int result3 = (b != 0 && c != 0) ? 1 : 0;
+//        int result4 = (a == 0) ? 1 : 0;
+//
+//        System.out.printf("%d %d %d %d", result1, result2, result3, result4);
+
+//연습문제8
         int a = 0;
         int b = 1;
         int c = 2;
 
+        int r1 = (a == 0) ? 1 : 0;
+        int r2 = (b != 0) ? 1 : 0;
+        int r3 = (a != 0 && b != 0) ? 1 : 0;
+        int r4 = (!(a != 0)) ? 1 : 0;
+
+        System.out.printf("%d %d %d %d", r1, r2, r3, r4);
 
     }
 }
