@@ -47,15 +47,25 @@ public class 연습문제 {
         int a = 10;
         int b = 10;
 
-        int aa = a++;
-        int bb = ++b;
-
-        int aaa = a--;
-        int bbb = --b;
-
         System.out.printf("최초값 a = %d, b = %d\n\n", a, b);
-        System.out.printf("a++ = %d, ++b = %d\n 실행후 a = %d, b = %d\n\n", a, b, aa, bb);
-        System.out.printf("a-- = %d, --b = %d\n 실행후 a = %d, b = %d", a, b, aaa, bbb);
+        
+        int ab = a;
+        a++;
+
+        ++b;
+        int bb = b;
+
+        System.out.printf("a++ = %d, ++b = %d\n" + "실행후 a = %d, b = %d\n\n", ab, bb, a, b);
+
+        ab = a;
+        a--;
+
+        --b;
+        bb = b;
+
+        System.out.printf("a-- = %d, --b = %d\n" + "실행후 a = %d, b = %d\n\n", ab, bb, a, b);
+
+
 
     }
 }
