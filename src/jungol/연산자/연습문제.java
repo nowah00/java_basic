@@ -168,6 +168,5 @@ public class 연습문제 {
         int r4 = (!(a != 0)) ? 1 : 0;
 
         System.out.printf("%d %d %d %d", r1, r2, r3, r4);
-
     }
 }
