@@ -53,8 +53,8 @@ public class 형성평가 {
         int gh = in.nextInt();
         int gw = in.nextInt();
 
-        int result = (mh > gh && mw > gw) ? 1 : 0;
+        int r = (mh > gh && mw > gw) ? 1 : 0;
 
-        System.out.println(result);
+        System.out.println(r);
     }
 }
