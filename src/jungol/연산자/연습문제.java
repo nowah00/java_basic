@@ -76,38 +76,80 @@ public class 연습문제 {
 //        System.out.printf("a = %d, b = %d, c = %d", a, b, c);
 
 // 연습문제5
-        int a = in.nextInt();
-        int b = in.nextInt();
-        int c = in.nextInt();
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//        int c = in.nextInt();
+//
+//        if (a == b){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
+//
+//        System.out.print(" ");
+//
+//        if (b == c){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
+//
+//        System.out.print(" ");
+//
+//        if (a != b){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
+//
+//        System.out.print(" ");
+//
+//        if (b != c){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
 
-        if (a == b){
-            System.out.print(1);
-        } else {
-            System.out.print(0);
-        }
+//연습문제6
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//        int c = in.nextInt();
+//
+//        if (a > b){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
+//
+//        System.out.print(" ");
+//
+//        if (b >= c){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
+//
+//        System.out.print(" ");
+//
+//        if (a <= b){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
+//
+//        System.out.print(" ");
+//
+//        if (b < c){
+//            System.out.print(1);
+//        } else {
+//            System.out.print(0);
+//        }
 
-        System.out.print(" ");
+//연습문제7
+        int a = 0;
+        int b = 1;
+        int c = 2;
 
-        if (b == c){
-            System.out.print(1);
-        } else {
-            System.out.print(0);
-        }
 
-        System.out.print(" ");
-
-        if (a != b){
-            System.out.print(1);
-        } else {
-            System.out.print(0);
-        }
-
-        System.out.print(" ");
-
-        if (b != c){
-            System.out.print(1);
-        } else {
-            System.out.print(0);
-        }
     }
 }
