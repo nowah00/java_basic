@@ -43,29 +43,71 @@ public class 연습문제 {
 //        System.out.printf("%d ", r4);
 //        System.out.printf("%.0f", r5);
 
-// 연습문제3(아직이야)
-        int a = 10;
-        int b = 10;
+// 연습문제3
+//        int a = 10;
+//        int b = 10;
+//
+//        System.out.printf("최초값 a = %d, b = %d\n\n", a, b);
+//
+//        int ab = a;
+//        a++;
+//
+//        ++b;
+//        int bb = b;
+//
+//        System.out.printf("a++ = %d, ++b = %d\n" + "실행후 a = %d, b = %d\n\n", ab, bb, a, b);
+//
+//        ab = a;
+//        a--;
+//
+//        --b;
+//        bb = b;
+//
+//        System.out.printf("a-- = %d, --b = %d\n" + "실행후 a = %d, b = %d\n\n", ab, bb, a, b);
 
-        System.out.printf("최초값 a = %d, b = %d\n\n", a, b);
-        
-        int ab = a;
-        a++;
+// 연습문제4
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//
+//        ++a;
+//        int c = a + b;
+//        --b;
+//
+//        System.out.printf("a = %d, b = %d, c = %d", a, b, c);
 
-        ++b;
-        int bb = b;
+// 연습문제5
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
 
-        System.out.printf("a++ = %d, ++b = %d\n" + "실행후 a = %d, b = %d\n\n", ab, bb, a, b);
+        if (a == b){
+            System.out.print(1);
+        } else {
+            System.out.print(0);
+        }
 
-        ab = a;
-        a--;
+        System.out.print(" ");
 
-        --b;
-        bb = b;
+        if (b == c){
+            System.out.print(1);
+        } else {
+            System.out.print(0);
+        }
 
-        System.out.printf("a-- = %d, --b = %d\n" + "실행후 a = %d, b = %d\n\n", ab, bb, a, b);
+        System.out.print(" ");
 
+        if (a != b){
+            System.out.print(1);
+        } else {
+            System.out.print(0);
+        }
 
+        System.out.print(" ");
 
+        if (b != c){
+            System.out.print(1);
+        } else {
+            System.out.print(0);
+        }
     }
 }
