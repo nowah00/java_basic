@@ -163,10 +163,10 @@ public class 연습문제 {
         int c = 2;
 
         int r1 = (a == 0) ? 1 : 0;
-        int r2 = (b != 0) ? 1 : 0;
-        int r3 = (a != 0 && b != 0) ? 1 : 0;
-        int r4 = (!(a != 0)) ? 1 : 0;
+        int r2 = (b < c) ? 1 : 0;
+        int r3 = (a != 0 && c == 2) ? 1 : 0;
+        int r4 = (!(c == 0)) ? 1 : 0;
 
-        System.out.printf("%d %d %d %d", r1, r2, r3, r4);
+        System.out.printf("%d %d %d %d\n", r1, r2, r3, r4);
     }
 }
