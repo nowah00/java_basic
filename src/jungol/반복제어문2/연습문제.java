@@ -52,17 +52,40 @@ public class 연습문제 {
 //        System.out.printf("입력받은 짝수는 %d개입니다.", x);
 
 // 연습문제6
-        for (int i = 0; i < 5; i++) {
-            int x = in.nextInt();
-
-        }
-
+//        int count = 0;
+//
+//        for (int i = 1; i <= 5; i++){
+//            int score = in.nextInt();
+//            count = count + score;
+//        }
+//        double avg = (double) count / 5;
+//        System.out.printf("총점 : %d\n평균 : %.1f", count, avg);
 
 // 연습문제7
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++){
+//                System.out.printf("%d ", i);
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println();
+//
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++){
+//                System.out.printf("%d ", j);
+//            }
+//            System.out.println();
+//        }
 
 // 연습문제8
-
-
+        for (int j = 1; j <= 9; j++) {
+            for (int i = 2; i <= 4; i++){
+                int result = i * j;
+                System.out.printf("%d * %d =  %d   ", i, j, result);
+            }
+            System.out.println();
+        }
     }
 }
 
