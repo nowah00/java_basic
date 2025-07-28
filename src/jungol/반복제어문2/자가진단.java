@@ -87,17 +87,5 @@ public class 자가진단 {
             }
             System.out.println();
         }
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
