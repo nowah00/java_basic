@@ -14,12 +14,5 @@ public class 반복제어문3_연습문제2 {
                     System.out.println("***");
                 }
         }
-
-
-
-
-
-
-
     }
 }
