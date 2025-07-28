@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class 연습문제 {
     public static void main(String[] args) {
 
+        Scanner in = new Scanner(System.in);
 // 연습문제1
-//        Scanner input= new Scanner(System.in);
-//
 //        int x;
 //        System.out.println("10 이하의 정수를 입력하세요");
-//        x = input.nextInt();
+//        x = in.nextInt();
 //        for (int i = 1 ; i <= x ; i++){
 //            System.out.println("C언어 프로그래밍");
 //        }
@@ -21,7 +20,30 @@ public class 연습문제 {
 //
 //            System.out.printf("%c", ch);
 //            ch = ch + 1;
+//        }
 
-
+// 연습문제3
+        for (int i = 1 ; i < 21 ; i++) {
+            int a = i % 2;
+            if (a != 0){
+                System.out.print(i + " ");
+            }
         }
+
+// 연습문제4
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+}
+

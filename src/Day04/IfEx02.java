@@ -1,6 +1,6 @@
-package Day4;
+package Day04;
 
-public class IfEx01 {
+public class IfEx02 {
     public static void main(String[] args) {
         // Score 변수에 93점을 저장
         int score = 93;

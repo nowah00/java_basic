@@ -1,4 +1,4 @@
-package Day4;
+package Day04;
 
 public class RemdomEx01 {
     public static void main(String[] args) {
