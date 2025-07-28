@@ -31,17 +31,36 @@ public class 연습문제 {
 //        }
 
 // 연습문제4
+//        int a = 0;
+//        System.out.println("자연수를 입력하세요.");
+//        int num = in.nextInt();
+//        for (int i = 1 ; i <= num ; i++) {
+//            a += i;
+//        }
+//        System.out.println(a);
+
+// 연습문제5
+//        int x = 0;
+//
+//        for (int i = 0; i < 10; i++) {
+//            int num = in.nextInt();
+//            if (num % 2 == 0) {
+//                x = x + 1;
+//            }
+//        }
+//
+//        System.out.printf("입력받은 짝수는 %d개입니다.", x);
+
+// 연습문제6
+        for (int i = 0; i < 5; i++) {
+            int x = in.nextInt();
+
+        }
 
 
+// 연습문제7
 
-
-
-
-
-
-
-
-
+// 연습문제8
 
 
     }
