@@ -23,12 +23,12 @@ public class 연습문제 {
 //        }
 
 // 연습문제3
-        for (int i = 1 ; i < 21 ; i++) {
-            int a = i % 2;
-            if (a != 0){
-                System.out.print(i + " ");
-            }
-        }
+//        for (int i = 1 ; i < 21 ; i++) {
+//            int a = i % 2;
+//            if (a != 0){
+//                System.out.print(i + " ");
+//            }
+//        }
 
 // 연습문제4
 
