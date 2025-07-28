@@ -33,11 +33,5 @@ public class 반복제어문3_연습문제1 {
         }
 
         System.out.printf("%1$d %2$d", number, total);
-
-
-
-
-
-
     }
 }
