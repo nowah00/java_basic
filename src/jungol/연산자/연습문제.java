@@ -9,8 +9,7 @@ public class 연습문제 {
 // 연습문제1
 //        int a = in.nextInt();
 //        int b = in.nextInt();
-//        int r1, r2, r3, r4;
-//        float r5;
+//        int r1, r2, r3, r4, r5;
 //        r1 = a + b;
 //        r2 = a - b;
 //        r3 = a * b;
@@ -20,7 +19,7 @@ public class 연습문제 {
 //        System.out.printf("%d - %d = %d\n", a, b, r2);
 //        System.out.printf("%d * %d = %d\n", a, b, r3);
 //        System.out.printf("%d / %d = %d\n", a, b, r4);
-//        System.out.printf("%d %% %d = %.0f", a, b, r5);
+//        System.out.printf("%d %% %d = %d", a, b, r5);
 
 // 연습문제2-1, 2-2
 //        int a = in.nextInt();
@@ -158,15 +157,15 @@ public class 연습문제 {
 //        System.out.printf("%d %d %d %d", result1, result2, result3, result4);
 
 //연습문제8
-        int a = 0;
-        int b = 1;
-        int c = 2;
-
-        int r1 = (a == 0) ? 1 : 0;
-        int r2 = (b < c) ? 1 : 0;
-        int r3 = (a != 0 && c == 2) ? 1 : 0;
-        int r4 = (!(c == 0)) ? 1 : 0;
-
-        System.out.printf("%d %d %d %d\n", r1, r2, r3, r4);
+//        int a = 0;
+//        int b = 1;
+//        int c = 2;
+//
+//        int r1 = (a == 0) ? 1 : 0;
+//        int r2 = (b < c) ? 1 : 0;
+//        int r3 = (a != 0 && c == 2) ? 1 : 0;
+//        int r4 = (!(c == 0)) ? 1 : 0;
+//
+//        System.out.printf("%d %d %d %d\n", r1, r2, r3, r4);
     }
 }

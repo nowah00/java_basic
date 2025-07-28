@@ -1,10 +1,12 @@
 package Day03;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+//        Scanner in = new Scanner(System.in);
 
 //        System.out.printf("상품의 가격: %d \n", 5000);
 //        System.out.printf("상품의 가격: %7d \n", 5000);
@@ -36,7 +38,7 @@ public class Practice {
 //
 //        System.out.printf("%d %d %d %d", r1, r2, r3, r4);
 
-        //-----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------
 //        int a = in.nextInt();
 //        int b = in.nextInt();
 //
@@ -47,5 +49,13 @@ public class Practice {
 //        boolean r2 = x || y;
 //
 //        System.out.printf("%d %d", r1 ? 1 : 0, r2 ? 1 : 0);
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
     }
 }
