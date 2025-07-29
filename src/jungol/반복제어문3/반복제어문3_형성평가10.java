@@ -23,7 +23,6 @@ public class 반복제어문3_형성평가10 {
             }
             System.out.println();
         }
-
     }
 }
 
