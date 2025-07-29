@@ -1,4 +1,4 @@
-package Day05;
+package Day05.StarEx;
 
 import java.util.Scanner;
 
