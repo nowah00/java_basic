@@ -6,7 +6,7 @@ public class 별삼각형1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-
+        star:
         while (true) {
             System.out.print("종류를 입력하세요. ");
             int m = in.nextInt();
@@ -44,14 +44,14 @@ public class 별삼각형1 {
                             System.out.print(" ");
                         }
                         a--;
-//                        for (int k=1; k=; k++){
-//
-//                        }
+                        for (int k=1; k<=2*i-1; k++){
+                            System.out.print("*");
+                        }
                         System.out.println();
-                    }
-
-
-
+                    } break;
+                default:
+                    System.out.println("INPUT ERROR!");
+                    break star;
             }
         }
     }
