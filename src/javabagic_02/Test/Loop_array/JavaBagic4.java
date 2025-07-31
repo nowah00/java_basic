@@ -10,7 +10,9 @@ public class JavaBagic4 {
 
         for (int x=1; x<16; x++){
             for (int y=1; y<13; y++){
-
+                if(4*x + 5*y==60){
+                    System.out.printf("(%d, %d)\n", x, y);
+                }
             }
         }
     }
