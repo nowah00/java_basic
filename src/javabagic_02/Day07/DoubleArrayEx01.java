@@ -27,13 +27,24 @@ public class DoubleArrayEx01 {
         int total = 0;
         int avg = 0;
         int count = 0;
+        int tt = 1;
 
         for (int i = 0; i < scores.length; i++) {
             System.out.println(s + "번째 학생");
             for (int j = 0; j < scores.length; j++) {
                 total += scores[i][j];
+
+                if (tt==1){ // 과목명
+                    System.out.print("kor : ");
+                } else if (tt==2) {
+                    System.out.print("eng : ");
+                } else if (tt==3){
+                    System.out.print("math : ");
+                }
+
                 System.out.println(scores[i][j]);
                 count++;
+                tt++;
             }
             s++;
             avg = total / count;
@@ -41,6 +52,7 @@ public class DoubleArrayEx01 {
             total = 0;
             avg = 0;
             count = 0;
+            tt=1;
         }
 
     }
