@@ -6,6 +6,7 @@ public class JavaBagic8 {
         String text = "------------------------------------\n 1.예금  |  2.출금  |  3.잔고  |  4.종료 \n------------------------------------\n";
         System.out.print(text);
         int total = 0;
+
         Choice:
         while(true){
             System.out.print("선택> ");
