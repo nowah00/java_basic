@@ -24,6 +24,8 @@ public class JavaBagic9 {
 
         switch (choice){
             case 1:
+                total=0;
+                avg=0;
                 System.out.print("학생수> ");
                 int studentsCount = in.nextInt();
                 student = studentsCount;
