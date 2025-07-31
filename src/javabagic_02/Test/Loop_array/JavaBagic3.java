@@ -8,11 +8,10 @@ public class JavaBagic3 {
 
         Scanner in = new Scanner(System.in);
 
+        int num = 0;
+        int sum = 0;
+
         while(true){
-
-            int num = 0;
-            int sum = 0;
-
             for (int i=1; i<=2; i++) {
                 num = (int) (Math.random() * 6) + 1;
                 sum += num;

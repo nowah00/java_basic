@@ -4,7 +4,7 @@ public class JavaBagic8 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String text = "------------------------------------\n 1.예금  |  2.출금  |  3.잔고  |  4.종료 \n------------------------------------\n";
-        System.out.print(text);
+
         int total = 0;
 
         Choice:
