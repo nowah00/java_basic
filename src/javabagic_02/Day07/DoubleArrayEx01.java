@@ -13,9 +13,9 @@ public class DoubleArrayEx01 {
         scores[0][2] = 80; // 수학
 
     // 2번 학생의 국어:80 영어:100 수학:90 을 저장하고 출력하세요.
-        scores[1][0] = 90;
+        scores[1][0] = 80;
         scores[1][1] = 100;
-        scores[1][2] = 50;
+        scores[1][2] = 90;
 
     // 3번 학생의 국어:100 영어:90 수학:90 을 저장하고 출력하세요.
         scores[2][0] = 100;
@@ -40,6 +40,7 @@ public class DoubleArrayEx01 {
             System.out.printf("total : %d \navg : %d\n\n", total, avg);
             total = 0;
             avg = 0;
+            count = 0;
         }
 
     }
