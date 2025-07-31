@@ -8,19 +8,9 @@ public class JavaBagic4 {
 
         Scanner in = new Scanner(System.in);
 
-        while(true){
+        for (int x=1; x<16; x++){
+            for (int y=1; y<13; y++){
 
-            int num = 0;
-            int total = 0;
-
-            for (int i=1; i<=2; i++) {
-                num = (int) (Math.random() * 6) + 1;
-                total += num;
-                System.out.print(num + " ");
-            }
-            System.out.println();
-            if (total==5){
-                break;
             }
         }
     }

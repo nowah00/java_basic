@@ -8,11 +8,15 @@ public class JavaBagic9 {
 
         Scanner in = new Scanner(System.in);
 
+        int student = 0;
+        int[] scores = new int[1];
+        int max = scores[0];
+        int total = 0;
+        double avg = 0;
+
         System.out.printf("-------------------------------------------------------\n 1.학생수  |  2.점수입력  |  3.점수리스트  |  4.분석  |  5.종료  \n-------------------------------------------------------\n");
 
-        int student = 0;
-        int[] scores = new int[student];
-
+        Choice:
         while(true){
 
             System.out.print("선택> ");
@@ -23,28 +27,28 @@ public class JavaBagic9 {
                 System.out.print("학생수> ");
                 int studentsCount = in.nextInt();
                 student = studentsCount;
+                scores = new int[student];
                 break;
             case 2:
-                for (int i=1; i<=student; i++){
-                    System.out.printf("scores[%d]> ", i-1);
+                for (int i=0; i<=student-1; i++){
+                    System.out.printf("scores[%d]> ", i);
                     scores[i] = in.nextInt();
-                }
+                    max = Math.max(max, scores[i]);
+                    total += scores[i];
+                    avg = (double) total / student;
+                } break;
             case 3:
                 for (int i = 0; i < scores.length; i++) {
-                    System.out.printf("scores[%d]> %d", i-1, scores[i]);
-                }
+                    System.out.printf("scores[%d]> %d\n", i, scores[i]);
+                } break;
             case 4:
-
+                System.out.printf("최고 점수: %d\n평균 점수: %.1f\n", max, avg);
+                break;
             case 5:
-                System.out.printf("-------------------------------------------------------\n 1.학생수  |  2.점수입력  |  3.점수리스트  |  4.분석  |  5.종료  \n-------------------------------------------------------\n");
-
-
-
-
-
-
-
+                System.out.println("프로그램 종료");
+                break Choice;
         }
+            System.out.printf("-------------------------------------------------------\n 1.학생수  |  2.점수입력  |  3.점수리스트  |  4.분석  |  5.종료  \n-------------------------------------------------------\n");
         }
     }
 }
