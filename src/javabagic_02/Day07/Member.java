@@ -1,4 +1,4 @@
-package javabagic_02.Day07.Fitness;
+package javabagic_02.Day07;
 
 public class Member {
     public String name;

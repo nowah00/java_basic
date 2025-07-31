@@ -1,4 +1,4 @@
-package javabagic_02.Day07.Fitness;
+package javabagic_02.Day07;
 
 public class Fitness {
     public static void main(String[] args) {

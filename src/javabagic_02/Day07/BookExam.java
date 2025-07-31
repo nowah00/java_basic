@@ -1,4 +1,4 @@
-package javabagic_02.Day07.Book;
+package javabagic_02.Day07;
 
 public class BookExam {
     public static void main(String[] args) {

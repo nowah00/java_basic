@@ -1,4 +1,4 @@
-package javabagic_02.Day07.Movie;
+package javabagic_02.Day07;
 
 public class Movie {
     public String title;
