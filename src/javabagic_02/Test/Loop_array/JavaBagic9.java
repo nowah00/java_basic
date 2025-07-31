@@ -32,19 +32,29 @@ public class JavaBagic9 {
                 scores = new int[student];
                 break;
             case 2:
+                if (student==0){
+                    System.out.println("학생수가 없습니다. ");
+                } else {
                 for (int i=0; i<=student-1; i++){
+
                     System.out.printf("scores[%d]> ", i);
                     scores[i] = in.nextInt();
                     max = Math.max(max, scores[i]);
                     total += scores[i];
                     avg = (double) total / student;
-                } break;
+                } }break;
             case 3:
+                if (student==0){
+                    System.out.println("입력된 점수가 없습니다. ");
+                } else {
                 for (int i = 0; i < scores.length; i++) {
                     System.out.printf("scores[%d]> %d\n", i, scores[i]);
-                } break;
+                }} break;
             case 4:
-                System.out.printf("최고 점수: %d\n평균 점수: %.1f\n", max, avg);
+                if (student==0){
+                    System.out.println("입력된 점수가 없습니다. ");
+                } else {
+                System.out.printf("최고 점수: %d\n평균 점수: %.1f\n", max, avg);}
                 break;
             case 5:
                 System.out.println("프로그램 종료");
