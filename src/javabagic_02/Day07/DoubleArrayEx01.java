@@ -26,11 +26,12 @@ public class DoubleArrayEx01 {
         int student = 1;
         int total = 0;
         int avg = 0;
-        int count = 0;
-        int subjects = 1;
+        int count = 0; // 평균을 구하기 위한 카운트
+        int subjects = 1; // 과목
 
         for (int i = 0; i < scores.length; i++) {
-            System.out.println(student + "번째 학생");
+            System.out.println(student + "번째 학생"); // 몇 번째 학생인지
+
             for (int j = 0; j < scores.length; j++) {
                 total += scores[i][j];
 
