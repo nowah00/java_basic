@@ -20,7 +20,5 @@ public class RefEx01 {
         System.out.println("--------NullPointException");
         System.out.println(refVar4);
         System.out.println(refVar4.length());
-
-
     }
 }
