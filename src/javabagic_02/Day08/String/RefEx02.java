@@ -1,4 +1,4 @@
-package javabagic_02.Day08;
+package javabagic_02.Day08.String;
 
 // 똑같은 변수 a의 주소값을 출력하였다.
 // 문자열이 변경됨에 따라 주소값이 바뀌어 이음을 확인

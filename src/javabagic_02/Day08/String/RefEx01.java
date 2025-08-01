@@ -1,4 +1,4 @@
-package javabagic_02.Day08;
+package javabagic_02.Day08.String;
 
 public class RefEx01 {
     public static void main(String[] args) {
