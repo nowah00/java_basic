@@ -11,7 +11,7 @@ public class 배열2_연습문제06 {
         int[] subjectSum = new int[3];
         int total = 0;
         for (int i=0; i<3; i++){
-            System.out.print(i + 1 + "번째 학생의 점수 ");
+            System.out.println(i + 1 + "번째 학생의 점수 ");
             for (int j=0; j<3; j++){
                 student[i][j] = in.nextInt();
                 studentSum[i] += student[i][j];
@@ -20,7 +20,7 @@ public class 배열2_연습문제06 {
         }
         System.out.print("     국어 영어 수학 총점\n");
         for (int i=0; i<3; i++){
-            System.out.print(" " + i + "번 ");
+            System.out.print(" " + (i+1) + "번 ");
             for (int j=0; j<3; j++){
                 System.out.print(" " + student[i][j] + " ");
             }
@@ -37,6 +37,6 @@ public class 배열2_연습문제06 {
         for (int i = 0; i < 3; i++) {
             System.out.print(subjectSum[i] + " ");
         }
-        System.out.print(total);
+        System.out.print(" " + total);
     }
 }
