@@ -1,4 +1,4 @@
-package javabagic_02.Test.Loop_array;
+package javabagic_02.Day08.String.Loop_array;
 
 public class JavaBagic2 {
 
