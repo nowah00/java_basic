@@ -1,4 +1,4 @@
-package javabagic_02.day09.methods;
+package javabagic_02.day09.methodsBasic.example;
 
 public class Example02 {
     public static  String greeting(){

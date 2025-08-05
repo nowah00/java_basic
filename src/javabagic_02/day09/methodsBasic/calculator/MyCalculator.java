@@ -1,4 +1,4 @@
-package javabagic_02.day09.methods;
+package javabagic_02.day09.methodsBasic.calculator;
 
 public class MyCalculator {
     int[] numbers = new int[2]; // 수를 저장하는 정수형 배열

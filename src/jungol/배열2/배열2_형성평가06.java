@@ -3,27 +3,26 @@ package jungol.배열2;
 import java.util.Scanner;
 
 public class 배열2_형성평가06 {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        public static void main(String[] args) {
+            int[][] arr = new int[5][5]; // 5행 5열 배열 선언
 
-        int [][] number = new int[5][5];
+            arr[0][0] = 1;
+            arr[0][2] = 1;
+            arr[0][4] = 1;
 
-        for (int i = 0; i < 5; i++) {
-            if (i==1||i==3){
-                number[0][i]=0;
-            } else {
-//                number[i] = 1;
+            for (int i = 1; i < 5; i++) {
+                for (int j = 0; j < 5; j++) {
+                    int left = (j - 1 >= 0) ? arr[i - 1][j - 1] : 0;
+                    int right = (j + 1 < 5) ? arr[i - 1][j + 1] : 0;
+                    arr[i][j] = left + right;
+                }
             }
-        }
 
-//        for (int i = 1; i < 5; i++) {
-//            for (int j = 1; j < 5; j++) {
-//                    number[i][j] = number[i - 1][j - 1] + number[i - 1][j + 1];
-//            }
-//        }
-
-        for (int i = 0; i < 5; i++) {
-            System.out.print(number[0][i]);
-        }
+            for (int i = 0; i < 5; i++) {
+                for (int j = 0; j < 5; j++) {
+                    System.out.print(arr[i][j] + " ");
+                }
+                System.out.println();
+            }
     }
 }

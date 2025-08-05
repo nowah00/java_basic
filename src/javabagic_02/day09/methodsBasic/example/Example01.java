@@ -1,4 +1,4 @@
-package javabagic_02.day09.methods;
+package javabagic_02.day09.methodsBasic.example;
 
 import java.util.Scanner;
 

@@ -1,8 +1,8 @@
-package javabagic_01.day05;
+package memupan;
 
 import java.util.Scanner;
 
-public class Practice_ {
+public class MenuMain {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -29,8 +29,7 @@ public class Practice_ {
 
             switch (menuNum) {
                 case 1:
-                    System.out.println("현재 고객 정보 :");
-                    System.out.printf("이름 %s   연락처 %s\n\n", userName, userPhone);
+                    MenuGuestInfo 하원 = new MenuGuestInfo("고하원", "010-2775-9804");
                     break;
                 case 2:
                     System.out.println("2");
