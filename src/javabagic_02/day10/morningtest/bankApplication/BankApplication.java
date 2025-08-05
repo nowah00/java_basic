@@ -60,7 +60,7 @@ public class BankApplication {
         System.out.println("예금");
         System.out.println("------");
 
-        System.out.print("계좌번호 : ");
+        System.out.print("계좌번호 : "); // 본인 계좌 입력
         String accountNo = in.nextLine();
 
         Account acc = findAccount(accountNo); // 계좌 찾기
@@ -73,8 +73,12 @@ public class BankApplication {
         System.out.print("입금액 : ");
         int money = Integer.parseInt(in.nextLine());
 
+        if(money<=0){
+            System.out.println("잘못된 입력입니다.");
+            return;
+        }
+
         acc.setBalance(money); // 입금 처리
-        System.out.println("결과 : 정상 처리되었습니다.");
     }
 
 
@@ -84,7 +88,7 @@ public class BankApplication {
         System.out.println("출금");
         System.out.println("------");
 
-        System.out.print("계좌번호 : ");
+        System.out.print("계좌번호 : "); // 본인 계좌 입력
         String accountNo = in.nextLine();
 
         Account acc = findAccount(accountNo); // 계좌 찾기
@@ -108,7 +112,6 @@ public class BankApplication {
         }
 
         acc.setBalance(-money); // 출금 처리
-        System.out.println("결과 : 출금이 완료되었습니다.");
     }
 
 

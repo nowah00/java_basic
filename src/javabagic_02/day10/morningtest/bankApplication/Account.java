@@ -25,8 +25,10 @@ public class Account {
         int newBalance = this.balance + money;
 
         if (newBalance < MIN_BALANCE || newBalance > MAX_BALANCE) {
+            System.out.println("실행이 불가합니다.");
             return;
         }
+        System.out.println("결과 : 정상 처리되었습니다.");
         this.balance = newBalance;
     }
 
@@ -34,7 +36,3 @@ public class Account {
         return this.balance;
     }
 }
-
-
-
-
