@@ -1,4 +1,4 @@
-package javabagic_02.day11.inheritane;
+package javabagic_02.day11.inheritane.ABCDEF;
 
 public class ABCMain {
     public static void main(String[] args) {

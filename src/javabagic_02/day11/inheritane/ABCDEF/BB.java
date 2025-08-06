@@ -1,4 +1,4 @@
-package javabagic_02.day11.inheritane;
+package javabagic_02.day11.inheritane.ABCDEF;
 
 public class BB extends AA {
     private int cc = 30;
