@@ -2,38 +2,8 @@ package 생성자;
 
 public class Rectangle {
     private int width;
-    private int height;
+    private int length;
     private String color;
-    private int area;
-
-    Rectangle(){}
-    Rectangle(int width, int height){
-        this.width = width;
-        this.height = height;
-        this.color = "흰색";
-    }
-    Rectangle(int width, int height, String color){
-        this.width = width;
-        this.height = height;
-        this.color = color;
-    }
-
-
-    public int getWidth() {
-        return width;
-    }
-
-    public void setWidth(int width) {
-        this.width = width;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 
     public String getColor() {
         return color;
@@ -43,16 +13,29 @@ public class Rectangle {
         this.color = color;
     }
 
-    public int getArea() {
-        return this.calculateArea();
+    public int getLength() {
+        return length;
     }
 
-    public void setArea(int area) {
-        this.area = area;
+    public void setLength(int length) {
+        this.length = length;
     }
 
-    public int calculateArea(){
-        int result = this.getWidth() * this.getHeight();
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int area(){
+        int result = this.width * this.length;
+        return result;
+    }
+
+    public int perimeter(){
+        int result = (this.width + this.length) * 2;
         return result;
     }
 }
