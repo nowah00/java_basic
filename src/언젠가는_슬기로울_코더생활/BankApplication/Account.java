@@ -1,4 +1,4 @@
-package 언젠가는_슬기로울_개발자생활.BankApplication;
+package 언젠가는_슬기로울_코더생활.BankApplication;
 
 public class Account{
     private String accountNumber;
