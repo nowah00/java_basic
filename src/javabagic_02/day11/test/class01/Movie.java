@@ -4,7 +4,7 @@ public class Movie {
     private String title;
     private String genre;
 
-    public Movie (){}
+    public Movie () {}
 
     Movie(String title, String genre){
         this.title = title;
