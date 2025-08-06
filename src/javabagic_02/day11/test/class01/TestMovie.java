@@ -1,3 +1,5 @@
+package javabagic_02.day11.test.class01;
+
 public class TestMovie {
 
 	public static void main(String[] args) {

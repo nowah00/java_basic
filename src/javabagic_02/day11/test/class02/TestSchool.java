@@ -1,4 +1,4 @@
-package javabagic_02.day11.test.class02.prob;
+package javabagic_02.day11.test.class02;
 
 public class TestSchool {
 	

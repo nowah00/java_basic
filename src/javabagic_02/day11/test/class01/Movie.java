@@ -1,3 +1,5 @@
+package javabagic_02.day11.test.class01;
+
 public class Movie {
     private String title;
     private String genre;
