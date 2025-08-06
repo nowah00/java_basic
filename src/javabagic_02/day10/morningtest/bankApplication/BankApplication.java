@@ -132,7 +132,7 @@ public class BankApplication {
                     ====================================
                     """;
             System.out.println(menu);
-            System.out.println("선택>");
+            System.out.print("선택> ");
 
             int choice = Integer.parseInt(in.nextLine());
             switch (choice){

@@ -21,18 +21,18 @@ public class Account {
         return owner;
     }
 
+    public int getBalance() {
+        return this.balance;
+    }
+
     public void setBalance(int money) {
         int newBalance = this.balance + money;
 
         if (newBalance < MIN_BALANCE || newBalance > MAX_BALANCE) {
-            System.out.println("실행이 불가합니다.");
+            System.out.println("결과 : 실행이 불가합니다.");
             return;
         }
         System.out.println("결과 : 정상 처리되었습니다.");
         this.balance = newBalance;
-    }
-
-    public int getBalance() {
-        return this.balance;
     }
 }
