@@ -1,7 +1,5 @@
 package 언슬코.BankApplication;
 
-import javabagic_02.day11.inheritane.ABCDEF.A;
-
 import java.util.Scanner;
 
 public class BankApplication{
