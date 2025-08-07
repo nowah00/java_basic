@@ -11,4 +11,8 @@ public class SmartPhone extends Phone {
         System.out.println("인터넷을 사용합니다.");
     }
 
+    @Override
+    void call() {
+        System.out.println("스마트폰으로 전화를 겁니다.");
+    }
 }
