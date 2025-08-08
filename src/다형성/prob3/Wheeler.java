@@ -1,9 +1,17 @@
+package 다형성.prob3;
+
 abstract public class Wheeler {
  protected int velocity;
  protected String carName;
  protected int wheelNumber;
- 
- abstract public void speedUp(int speed);
+
+ Wheeler(String carName, int velocity, int wheelNumber){
+     this.carName = carName;
+     this.velocity = velocity;
+     this.wheelNumber = wheelNumber;
+ }
+
+    abstract public void speedUp(int speed);
  
  abstract public void speedDown(int speed);
  
