@@ -1,0 +1,29 @@
+package 다형성.prob2;
+
+public class Coffee extends Beverage {
+    public static int amount;
+
+    Coffee(String name){
+        super(name);
+    }
+
+    public static int getAmount() {
+        return amount;
+    }
+
+    public static void setAmount(int amount) {
+        Coffee.amount = amount;
+    }
+
+    @Override
+    void calcPrice() {
+        if (this.name == "Americano"){
+            this.setPrice(1500);
+        } else if (this.name == "CafeLatte"){
+            this.setPrice(2500);
+        } else if (this.name == "Cappuccino"){
+            this.setPrice(3000);
+        }
+        amount++;
+    }
+}
