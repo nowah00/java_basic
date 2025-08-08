@@ -17,11 +17,11 @@ public class Coffee extends Beverage {
 
     @Override
     void calcPrice() {
-        if (this.name == "Americano"){
+        if (this.name.equals("Americano")){
             this.setPrice(1500);
-        } else if (this.name == "CafeLatte"){
+        } else if (this.name.equals("CafeLatte")){
             this.setPrice(2500);
-        } else if (this.name == "Cappuccino"){
+        } else if (this.name.equals("Cappuccino")){
             this.setPrice(3000);
         }
         amount++;

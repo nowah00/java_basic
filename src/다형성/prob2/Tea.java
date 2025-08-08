@@ -17,11 +17,11 @@ public class Tea extends Beverage {
 
     @Override
     void calcPrice() {
-        if (this.name == "LemonTea"){
+        if (this.name.equals("LemonTea")){
             this.setPrice(1500);
-        } else if (this.name == "ginsengTea"){
+        } else if (this.name.equals("ginsengTea")){
             this.setPrice(2000);
-        } else if (this.name == "redginsengTea"){
+        } else if (this.name.equals("redginsengTea")){
             this.setPrice(2500);
         }
         amount++;
