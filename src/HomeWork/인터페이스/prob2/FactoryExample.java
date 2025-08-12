@@ -21,7 +21,6 @@ public class FactoryExample {
         TVFactory TVXYZ = new TVFactory("TVXYZ", 9, 18);
 
         FactoryExample ex = new FactoryExample();
-        // 각 공장 별로기술력값에 따른 하루 생산량과 파트너 사 협력 시 추가 생산량을 알아본다
         ex.getResult(CarABC, 'A', CarXYZ);
         ex.getResult(CarXYZ, 'B', CarABC);
         ex.getResult(TVABC, 'A', TVXYZ);
@@ -32,10 +31,8 @@ public class FactoryExample {
     public void getResult(Factory mainFactory, char mainFactorySkill, IWorkingTogether partner) {
 
         System.out.println("* " + mainFactory.getFactoryName() + " 공장의 하루 생산량과 파트너 공장 협력 시 추가 생산량은 다음과 같다.");
-        // TODO
         System.out.println("1.하루생산량 = " + mainFactory.makeProducts(mainFactorySkill));
         System.out.println("2.파트너 공장 [" + ((Factory)partner).getFactoryName() + "] 협력 시 추가 생산량 = " + partner.workTogether(partner));
         System.out.println("--------------------------------------------------------------");
     }
-
 }
