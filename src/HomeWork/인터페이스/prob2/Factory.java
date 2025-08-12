@@ -1,10 +1,10 @@
 package HomeWork.인터페이스.prob2;
 
 public abstract class Factory {
-    public int openHour;
-    public int closeHour;
-    public String factoryName;
-    public int workingTime;
+    private int openHour;
+    private int closeHour;
+    private String factoryName;
+    private int workingTime;
 
     Factory(String factoryName, int openHour, int closeHour){
         this.factoryName = factoryName;
@@ -12,14 +12,13 @@ public abstract class Factory {
         this.closeHour = closeHour;
     }
 
-    public String getFactoryName() {
+    String getFactoryName() {
         return factoryName;
     }
 
-    public int getWorkingTime() {
-        this.workingTime = this.closeHour - this.openHour;
-        return this.workingTime;
+    int getWorkingTime() {
+        return this.closeHour - this.openHour;
     }
 
-    public abstract int makeProducts(char skill);
+    abstract int makeProducts(char skill);
 }

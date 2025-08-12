@@ -7,7 +7,7 @@ public class TVFactory extends Factory implements IWorkingTogether {
     }
 
     @Override
-    public int makeProducts(char skill) {
+    int makeProducts(char skill) {
         if (skill == 'A') {
             return 8 * this.getWorkingTime();
         } else if (skill == 'B') {
