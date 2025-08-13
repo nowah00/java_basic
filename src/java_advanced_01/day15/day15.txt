@@ -31,3 +31,34 @@
    public void method2(String className) throws ClassNotFoundException {
         Class.forName(className)
    }
+
+
+3. 제너릭
+   결정되지 않은 타입을 파라미터로 처리하고 실제 사용할때 파라미터를 구체적인 타입으로 대채시키는
+   객체를 저장할 때 저장할 내용물의 타입을 미리 알려주고, 읽을 때 어떤 타입으로 제공할지룰 알게 표시
+   Box 는 content 에 무엇이 대입되고, 읽을 때 어떤 타입으로 제공할지를 알게 정하는 것
+
+   클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 방법, 객체별로 다른 타입의 자료가 저장될 수 있도록 지원해 준다.
+   객체타입을 변수화 한 기능
+
+   public class Box<T>{
+        public T content;
+   }
+
+   Box<String> box = new Box<String>();
+   box.content = "안녕";
+   String content = box.content;
+
+   Box<Integer> box = new Box<Integer>();
+      box.content = 100;
+      Integer content = box.content;
+
+   T 파라미터로 제공되는 것은 클래스타입, 인터페이스만 가능하다. Box<int, boolean> (X)
+
+   타입 파라미터 기호 네이밍 (암묵적 규칙)
+   <T> ==> 타입 Type
+   <E> ==> 요소 Element List
+   <K> ==> key, Map <K,V>
+   <V> ==> Value, 리턴 값, 매핑 값
+   <N> ==> 숫자
+   <S, U, V> ==> 2번째, 3번쨰, 4번째 선언된 타입
