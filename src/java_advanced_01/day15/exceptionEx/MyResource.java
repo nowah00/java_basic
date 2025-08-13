@@ -1,6 +1,4 @@
-package java_advanced_01.day15;
-
-import java.io.Closeable;
+package java_advanced_01.day15.exceptionEx;
 
 public class MyResource implements AutoCloseable {
     private String name;
