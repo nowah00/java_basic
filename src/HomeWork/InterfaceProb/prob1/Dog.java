@@ -1,4 +1,4 @@
-package HomeWork.인터페이스.prob1;
+package HomeWork.InterfaceProb.prob1;
 
 public class Dog extends Animal {
 

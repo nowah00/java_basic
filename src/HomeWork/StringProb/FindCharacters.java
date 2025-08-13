@@ -1,4 +1,4 @@
-package HomeWork.스트링;
+package HomeWork.StringProb;
 
 public class FindCharacters {
 

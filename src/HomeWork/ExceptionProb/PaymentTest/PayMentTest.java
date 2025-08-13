@@ -1,4 +1,4 @@
-package HomeWork.예외.PaymentTest;
+package HomeWork.ExceptionProb.PaymentTest;
 
 public class PayMentTest {
 
@@ -29,5 +29,4 @@ public class PayMentTest {
         p.pay();
         System.out.println( p );
     }
-
 }

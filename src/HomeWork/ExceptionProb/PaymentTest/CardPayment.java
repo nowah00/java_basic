@@ -1,4 +1,4 @@
-package HomeWork.예외.PaymentTest;
+package HomeWork.ExceptionProb.PaymentTest;
 
 public class CardPayment extends Payment {
     private String cardNumber;

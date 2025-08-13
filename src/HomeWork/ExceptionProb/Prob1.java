@@ -1,4 +1,4 @@
-package HomeWork.예외;
+package HomeWork.ExceptionProb;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package HomeWork.인터페이스.prob2;
+package HomeWork.InterfaceProb.prob2;
 
 public class TVFactory extends Factory implements IWorkingTogether {
 

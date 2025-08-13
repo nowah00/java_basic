@@ -1,4 +1,4 @@
-package HomeWork.예외.PaymentTest;
+package HomeWork.ExceptionProb.PaymentTest;
 
 import java.lang.Exception;
 

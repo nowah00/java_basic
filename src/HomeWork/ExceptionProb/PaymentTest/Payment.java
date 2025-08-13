@@ -1,4 +1,4 @@
-package HomeWork.예외.PaymentTest;
+package HomeWork.ExceptionProb.PaymentTest;
 
 public abstract class Payment implements Payable {
     protected String shopName;
