@@ -13,3 +13,21 @@
        안전하게 닫는 것이 매우 중요하다. 리소스는 불안정 상태로 남아 있게되고
        이는 자칫 데이터의 손상을 야기할 수 있다.
 
+2. 예외 떠넘기기
+   기본 처리 -> 메소드 내부에서 예외가 발생할 때  try-catch 블럭으로 처리하는 것
+   throws 를 이용하여 메소드를 호출한 곳으로 예외를 떠넘길 수 있다.
+
+   void read1() throws 예외클래스1, 예외클래스2,...{}
+
+   public void method1(){
+        String className = "java.lang.String2"
+        try {
+            method2(className);
+        } catch (ClassNotFoundException e){
+            e.printStackTrace;
+        }
+   }
+
+   public void method2(String className) throws ClassNotFoundException {
+        Class.forName(className)
+   }
