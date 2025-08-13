@@ -1,5 +1,5 @@
 package java_advanced_01.day15;
-
+//AutoCloseable 인터페이스 구현한 MyResource 리소스를 try - catch - resources 블록으로 사용하여 정리함.
 public class TryWithResourceEx {
 
     public static void main(String[] args) {
