@@ -1,7 +1,5 @@
 package java_advanced_01.day16.ComparatorEx;
 
-import java.util.Comparator;
-
 public class Fruit {
     public String name;
     public int price;
