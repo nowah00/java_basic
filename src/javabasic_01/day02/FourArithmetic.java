@@ -1,4 +1,4 @@
-package Day2;
+package javabasic_01.day02;
 
 public class FourArithmetic {
     public static void main(String[] args) {

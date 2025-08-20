@@ -1,4 +1,4 @@
-package Day1;
+package javabasic_01.day01;
 
 public class ex01 {
 // 접근제한자

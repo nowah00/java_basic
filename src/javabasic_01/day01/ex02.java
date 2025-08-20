@@ -1,4 +1,4 @@
-package Day1;
+package javabasic_01.day01;
 
 import java.util.Scanner;
 
