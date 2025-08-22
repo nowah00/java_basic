@@ -2,9 +2,8 @@ package java_advanced.day18.streamtest;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Locale;
 
-public class Example {
+public class Prob5 {
     public static void main(String[] args) {
         List<String> list = Arrays.asList(
                 "This is a java book",
