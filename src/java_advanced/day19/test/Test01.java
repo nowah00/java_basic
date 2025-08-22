@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FilterTest {
+public class Test01 {
     public static void main(String[] args) {
 //--------------------------------------------------------------------------------------------------------------
         //1. 이름 중 "A" 시작하는 이름을 수집하여 출력
