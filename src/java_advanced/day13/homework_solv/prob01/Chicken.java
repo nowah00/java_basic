@@ -1,6 +1,6 @@
 package java_advanced.day13.homework_solv.prob01;
 
-//import javabasic_02.day12.homework._1.Cheatable;
+import javabasic_02.day12.homework._1.Cheatable;
 
 public class Chicken extends Animal implements Cheatable {
 

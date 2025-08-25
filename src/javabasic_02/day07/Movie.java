@@ -1,10 +1,15 @@
 package javabasic_02.day07;
 
 public class Movie {
-    public String title;
-    public int release_date;
-    public String hero;
+
+    public String movieTitle;
+    public String movieStartDay;
+    public String actor;
     public String genre;
-    public int running_time;
-    public int rating;
+    public String runningTime;
+    public String movieLevel;
+
+    Movie(){}
+
+
 }

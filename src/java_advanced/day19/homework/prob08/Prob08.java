@@ -24,8 +24,7 @@ public class Prob08 {
                 new Employee("Steve","Engineering",8000),
                 new Employee("Kelly","Engineering",7000),
                 new Employee("Jim","Sales",8500)
+
         );
-        double avg = numbers.stream().mapToDouble(number -> number.getSalary()).average().getAsDouble();
-        System.out.println(avg);
     }
 }

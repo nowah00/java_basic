@@ -3,12 +3,11 @@ package javabasic_02.day11.inheritance.sec10.exam01;
 public class PhoneExample {
 	public static void main(String[] args) {
 
-		Phone[] phone = {new SmartPhone("하원"), new FeaturePhone("예림")};
+		//  Phone phone = new Phone();
 
-		for (int i = 0; i < phone.length; i++) {
-			phone[i].turnOn();
-			phone[i].call();
-			phone[i].turnOff();
-		}
+		SmartPhone smartPhone = new SmartPhone("신세계");
+		smartPhone.turnOn();
+		smartPhone.internet();
+		smartPhone.turnOff();
 	}
 }

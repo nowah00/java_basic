@@ -1,7 +1,5 @@
 package java_advanced.day20.pratice;
 
-import java_advanced.day13.B;
-
 import java.io.*;
 
 // 문제 9: 여러 줄 입력받아 파일에 저장
@@ -10,19 +8,19 @@ public class Prob9 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new FileWriter("Output.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"));
 
-        System.out.println("문장을 입력하세요 (exit 입력 시 종료)");
+        System.out.println("문장을 입력하세요 (exit 입력 시 종료):");
 
         String line;
         while (!(line = br.readLine()).equals("exit")) {
             bw.write(line);
-            bw.newLine();
+            bw.newLine(); // 줄바꿈
         }
-        bw.flush();
 
-        br.close();
+        bw.flush();
         bw.close();
-        System.out.println("파일 저장 완료");
+        br.close();
+        System.out.println("파일 저장 완료!");
     }
 }

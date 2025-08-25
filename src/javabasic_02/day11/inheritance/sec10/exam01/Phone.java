@@ -17,5 +17,5 @@ public abstract class Phone {
 		System.out.println("폰 전원을 끕니다.");
 	}
 
-	abstract void call();
+
 }

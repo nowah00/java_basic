@@ -1,4 +1,5 @@
-package javabasic_02.day11.inheritance.test.class01;
+/*
+package javabasic_02.day11.inheritance.test.class01
 
 public class TestMovie {
  
@@ -17,3 +18,4 @@ public class TestMovie {
 	}
 
 }
+*/

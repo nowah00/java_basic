@@ -7,25 +7,24 @@ import java.io.Writer;
 //문자열을 출력하는 write(String str) 메소드가 추가 제공된다.
 //Writer 클래스를 활용하여 하나의 문자, 문자 배열, 문자열 출력하는 기능 구현
 public class WriterEx {
-    public static void main(String[] args) throws Exception {
-        Writer writer = new FileWriter("/Users/hawon/Documents/Temp/testChar.txt");
+    public static void main(String[] args)throws Exception {
+         Writer writer = new FileWriter("C:/Temp/testChar.txt");
 
-        //1.문자씩 출력
+         //1. 문자씩 파일 출력
         char ch1 = 'A';
         writer.write(ch1);
         char ch2 = 'B';
         writer.write(ch2);
 
-        //2.char 배열 파일 출력
+        //char 배열 파일 출력
         char[] chars = {'C', 'D', 'E', 'F'};
         writer.write(chars);
 
-        //3.문자열 파일 출력
-        String str = "Hello IOStream!!";
+        //문자열 파일 출력
+        String str ="Hello IOStream!!";
         writer.write(str);
 
         writer.flush();
-
         writer.close();
     }
 }

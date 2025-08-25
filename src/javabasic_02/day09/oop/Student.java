@@ -7,7 +7,6 @@ public class Student {
     private String address;
     private String stu_ssn;
     String  gender;
-    public Scores scores;
 
     //생성자를 통하여 학생의 객체의 필드를 초기화
     Student() { }   //기본 생성자
@@ -22,6 +21,7 @@ public class Student {
         this.stu_age = stu_age;
         this.address = address;
     }
+
 
     public Integer getStu_age() {
         return this.stu_age;
@@ -49,17 +49,6 @@ public class Student {
                 ", stu_ssn='" + stu_ssn + '\'' +
                 '}';
     }
-
-    public void setScore(Scores score) { // setScores 필드에 저장
-        this.scores = score;
-    }
-
-    public Scores getScore() {
-        return this.scores;
-    }
-
-
-
 
 
 }

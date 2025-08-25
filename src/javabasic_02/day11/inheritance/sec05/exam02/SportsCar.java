@@ -6,4 +6,5 @@ public class SportsCar extends Car {
 		speed += 10;
 		if(speed == 0) super.stop();
 	}
+
 }
