@@ -1,5 +1,6 @@
 package java_advanced.day20.pratice;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
@@ -8,14 +9,16 @@ import java.io.InputStream;
 public class Prob7 {
 
     public static void main(String[] args) throws Exception {
-        InputStream is = new FileInputStream("/Users/hawon/Documents/Temp/vintage.jpg");
+//        InputStream is = new FileInputStream("/Users/hawon/Documents/Temp/vintage.jpg");
+//        byte count = 0;
+//        while (true) {
+//            int data = is.read();
+//            if (data == -1) break;
+//            count++;
+//        }
+//        System.out.println(count);
 
-        byte count = 0;
-        while (true) {
-            int data = is.read();
-            if (data == -1) break;
-            count++;
-        }
-        System.out.println(count);
+        File file = new File("/Users/hawon/Documents/Temp/vintageCopy.jpg");
+        System.out.println(file.length());
     }
 }
