@@ -9,8 +9,6 @@ import lombok.Getter;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 @Getter
 @AllArgsConstructor
@@ -29,7 +27,7 @@ public class Prob07 {
                 new Fruit("Banana",0.99),
                 new Fruit("Blueberry",3.02),
                 new Fruit("Cherry",2.99)
+
         );
-        Map<String,List<Fruit>> fruits = numbers.stream().collect(Collectors.groupingBy(Fruit::getFruitName));
     }
 }

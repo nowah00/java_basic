@@ -11,6 +11,6 @@ public class Main1 {
             }
         };
 
-        Runnable runnable1 = () -> System.out.println("Hello");
+        Runnable runnable1 =  ()-> System.out.println("Hello");
     }
 }

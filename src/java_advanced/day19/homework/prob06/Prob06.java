@@ -6,8 +6,6 @@ import lombok.Getter;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 @Getter
 @AllArgsConstructor
@@ -25,9 +23,7 @@ public class Prob06 {
                 new Person("Charlie",30),
                 new Person("David",25),
                 new Person("Eve",35)
-                );
 
-        Map<Integer, List<Person>> persons = numbers.stream()
-                .collect(Collectors.groupingBy(Person::getAge));
+                );
     }
 }

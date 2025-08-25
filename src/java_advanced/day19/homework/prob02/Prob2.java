@@ -9,7 +9,5 @@ public class Prob2 {
 
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
 
-        int sum = numbers.stream().map(x -> x * x).reduce(0, Integer::sum);
-        System.out.println(sum);
     }
 }

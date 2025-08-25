@@ -11,4 +11,6 @@ public class Student {
     private String name;
     //학생 점수
     private int score;
+
+
 }
