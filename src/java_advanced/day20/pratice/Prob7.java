@@ -10,12 +10,12 @@ public class Prob7 {
     public static void main(String[] args) throws Exception {
         InputStream is = new FileInputStream("/Users/hawon/Documents/Temp/vintage.jpg");
 
+        byte count = 0;
         while (true) {
             int data = is.read();
             if (data == -1) break;
-
+            count++;
         }
-
-
+        System.out.println(count);
     }
 }
