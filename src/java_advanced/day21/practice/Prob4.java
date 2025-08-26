@@ -1,4 +1,4 @@
-package java_advanced.day21.serialize.practice;
+package java_advanced.day21.practice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +10,8 @@ import java.io.*;
 @AllArgsConstructor
 @NoArgsConstructor
 class Account implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
     private String owner;
     private transient int balance;
 }

@@ -1,17 +1,16 @@
-package java_advanced.day21.serialize.practice;
+package java_advanced.day21.practice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 class Product implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
     private String name;
     private int price;
@@ -21,6 +20,7 @@ class Product implements Serializable {
 @AllArgsConstructor
 @NoArgsConstructor
 class Order implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
     private String orderId;
     private Product product;

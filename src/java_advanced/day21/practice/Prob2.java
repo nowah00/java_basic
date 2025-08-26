@@ -1,4 +1,4 @@
-package java_advanced.day21.serialize.practice;
+package java_advanced.day21.practice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 class Book implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
     private String title;
     private int price;
@@ -27,7 +28,7 @@ public class Prob2 {
                     new Book("book3", 24000)
             );
             oos.writeObject(books);
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

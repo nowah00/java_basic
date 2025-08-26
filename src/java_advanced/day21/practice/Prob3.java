@@ -1,4 +1,4 @@
-package java_advanced.day21.serialize.practice;
+package java_advanced.day21.practice;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 class Student implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
     private String name;
     private int grade;
@@ -27,7 +28,7 @@ public class Prob3 {
                     new Student("그로밋",2)
             );
             oos.writeObject(students);
-        } catch (Exception e) {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
