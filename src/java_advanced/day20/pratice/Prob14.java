@@ -27,7 +27,7 @@ public class Prob14 {
             num[i] = dis.readByte();
             sum += num[i];
         }
-        double avg = sum/num.length;
+        double avg = (double) sum / num.length;
         System.out.println("합계: " + sum + " 평균: " + avg);
     }
 }
