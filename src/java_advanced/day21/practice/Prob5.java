@@ -41,20 +41,28 @@ public class Prob5 {
         );
 
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))){
-            oos.writeObject(orders);
+            for (Order order : orders) {
+                oos.writeObject(order);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
-            List<Order> orderList = (List<Order>) ois.readObject();
-            for (Order order : orderList) {
-                Product product = order.getProduct();
+//            List<Order> orderList = (List<Order>) ois.readObject();
+//            for (Order order : orderList) {
+//                Product product = order.getProduct();
+//                System.out.println("주문자: " + order.getOrderId());
+//                System.out.println("상품: " + product.getName());
+//                System.out.println("가격: " + product.getPrice());
+//                System.out.println();
+//            }
+            Order order = (Order) ois.readObject();
+            Product product = order.getProduct();
                 System.out.println("주문자: " + order.getOrderId());
                 System.out.println("상품: " + product.getName());
                 System.out.println("가격: " + product.getPrice());
                 System.out.println();
-            }
         } catch (Exception e) {
             e.printStackTrace();
         }
