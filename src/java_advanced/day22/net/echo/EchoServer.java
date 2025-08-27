@@ -1,4 +1,4 @@
-package java_advanced.day22.net.socket01;
+package java_advanced.day22.net.echo;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ServerSocketEx01 {
+public class EchoServer {
     private static ServerSocket serverSocket = null;
 
     public static void main(String[] args) {
