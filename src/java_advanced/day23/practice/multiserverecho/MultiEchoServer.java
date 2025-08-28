@@ -1,4 +1,4 @@
-package java_advanced.day23.multiserverecho;
+package java_advanced.day23.practice.multiserverecho;
 
 import java.io.*;
 import java.net.*;
